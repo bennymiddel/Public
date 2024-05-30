@@ -27,7 +27,7 @@ It includes a simple folder structure and a conda environment for isolated depen
 
 ------------------------------------------------------------------------------
 
-## Project Title
+## Capstone - tbc
 =========================
 
 ### Executive Summary
