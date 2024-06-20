@@ -4,41 +4,15 @@
 
 ### Executive Summary
 
-Analysing the energy market and the relationships between electricity production, demand and price. The following three problems are to be analysed and translated into a solution. 
+European unity and the free movement of goods and people also affects the electricity market. Today, the entire European Union is part of a large interconnected grid. Unlike the physical connection, however, the price of electricity is determined in the individual electricity price zones. These zones roughly correspond to the individual member states. In the past, the electricity price followed the general and low inflation and did not show any major outliers. 
 
-Prediction of energy production and demand
-Develop a model to predict future energy production and demand.
-    Feature engineering (e.g. weather data, public holidays).
-    Model training and evaluation.
-Anomaly detection in energy production:
-Create a system to detect anomalies in energy production and demand.
-    Identification and labelling of normal operating states.
-    Application of anomaly detection techniques to historical data.
-Optimisation
-Develop a model to optimise the energy market based on price and market conditions.
-    Allow capacity expansion
+This changed with the coronavirus pandemic and the after-effects of massive government subsidy programmes, which have intensified, if not triggered, post-Covid inflation. 
 
+During this period of transition from Covid-19, another event followed that influenced the price of electricity in Europe. The Ukraine war that began on 24 February 2022 triggered an energy crisis in Europe that drove electricity prices to unprecedented heights. 
 
-Gain insights into the structure of the energy supply from the data set. In addition to the problems posed above, the following questions should be answered: 
+During this time of crisis, the ruling coalition in Germany decided to take the remaining nuclear power plants off the grid, even though experts expected these existing plants to have a diminishing effect on the price of electricity.
 
-1. Did the expansion of renewable energies lead to an increase in price?
-
-2. Is an expansion of renewable energies to 100% achievable in a market economy?
-
-3. Is there an optimal expansion point for renewable energies?
-
-4. What influence does the nuclear phase-out have
-
-
-The data is divided into:
-
--Generation and form of generation (329440, 15)
--demand for electricity (329440, 5)
--Export/import balance (329440, 25)
--Electricity price and electricity price in neighbouring countries Prices (329440, 17)
-
-
-In the course of the project, weather data (historical), price data (CO2, variable costs and investment costs) will be added as required. However, these are not necessary for the entire duration of the data sets and will be loaded as required. 
+The following work aims to analyse the impact of these two events on the electricity price in the Germany-Luxembourg price region. For this purpose, after a data analysis and adjustment phase, a model is first created based on the price data of the past before the war and the final nuclear phase-out, which predicts the price development without external effects. This model serves as the basis and benchmark for a further model that combines price data from the neighbouring zones, exports and imports to and from the Germany-Luxembourg zone, production in the zone, consumption in the zone and historical weather data.
 
 #### Repository 
 
@@ -51,6 +25,11 @@ In the course of the project, weather data (historical), price data (CO2, variab
 
 * `notebooks`
     - contains all final notebooks involved in the project
+        - 01-data-loading-cleaning
+        - 02-eda
+        - 03-pre-processing
+        - 04-modeling
+        - 05-findings
 
 * `docs`
     - contains final report which summarises the project
