@@ -49,15 +49,16 @@ By multiplying by the generation, the anomaly can be specified at a cost of €1
 
 #### Repository 
 
+
+
 * `data` 
-    - contains link to copy of the dataset (stored in a publicly accessible Google Drive folder)
-    - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
+    - raw_data and data created during the process.
+    - [Link to the data folder (OneDrive)](https://1drv.ms/f/s!AlBqPKBsBg3Wh7p1-zI-_FRCFurdmw?e=gMH3oz)
 
 * `model`
     - joblib dump of all trained models
 
-    - contains link to copy of the dataset (stored in a publicly accessible Google Drive folder)
-    - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
+    - [Link to the model folder (OneDrive)](https://1drv.ms/f/s!AlBqPKBsBg3Wh9x6n0_NX6k1rj6Ktg?e=xsqDgV)
 
 
 * `notebooks`
@@ -67,11 +68,9 @@ By multiplying by the generation, the anomaly can be specified at a cost of €1
         - 03-splitting-and-pre-processing
         - 04-modeling-and-findings
 
-* `docs`
-    - contains final report which summarises the project
-
 * `references`
     - contains papers / tutorials used in the project
+    - [Link to the references folder (OneDrive)](https://1drv.ms/f/s!AlBqPKBsBg3Wh7pCI6y2y0Dhz39A_Q?e=EvAk45)
 
 * `src`
     - Contains the project source code (refactored from the notebooks)
