@@ -1,8 +1,8 @@
 # don't upload data files
 *.csv
 *.xlsx
-/data
-/model
+*.pkl
+
 /references
 # Jupyter Notebook
 .ipynb_checkpoints
