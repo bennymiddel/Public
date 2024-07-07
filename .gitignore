@@ -3,6 +3,6 @@
 *.xlsx
 *.pkl
 
-/references
+
 # Jupyter Notebook
 .ipynb_checkpoints
