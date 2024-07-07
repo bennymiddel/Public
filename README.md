@@ -4,9 +4,8 @@
 By back-induction based on a machine learning algorithm, outliers are
 detected in an electricity price time series and assigned to specific events.
 
-
-B. Middelstaedt - London 05/07/24 
 =========================
+Benedikt Middelstaedt, 07/07/24 London
 
 ### Executive Summary
 
@@ -37,11 +36,12 @@ The systematic approach is explained in markdown cells and the code is explained
 
 The aim was to build a model based on the normal price ranges that could replicate the price development over the period as precisely as possible. The difference between this and the current price can be identified and quantified as an anomaly or outlier. 
 
-![alt text](../images/image-7.png)
+![alt text](/images/image-7.png)
 
 The model makes it possible to quantify the costs of the time series anomaly between May 2021 and the end of the period in May 2024 - in addition, individual outliers can be assigned to specific events. The additional costs can be quantified by multiplying them by the entire generation.  
 
-![alt text](../images/image.png)
+![alt text](/images/image.png)
+
 
 By multiplying by the generation, the anomaly can be specified at a cost of €13.6 billion, of which €5.8 billion is caused by the gas supply crisis and €3.43 billion by the war as a single event.  4.4 B€ cannot be allocated to either of the two events. In general, it can be said that the anomaly represents an additional cost of 40% compared to the expected increase. 
 
