@@ -1,8 +1,9 @@
 
 ## E N E R G I E W E N D E 
-## Outlier detection in time series using machine learning algorithm
+## Estimation of the effects of major events on the electricity prices in germany using using machine learning models
 By back-induction based on a machine learning algorithm, outliers are
 detected in an electricity price time series and assigned to specific events.
+
 
 B. Middelstaedt - London 05/07/24 
 =========================
@@ -22,6 +23,13 @@ The following work aims to analyse the impact of these two events on the electri
 The results are determined using a systematic approach of data loading, EDA, pre-processing and modelling, which is reflected in the project's notebooks. The individual steps are explained and the interim results are categorised and presented graphically whenever appropriate. The trained models - SARIMAX and XGBoost - are also saved as .pkl files and can be accessed. 
 
 The systematic approach is explained in markdown cells and the code is explained as a direct comment within the code blocks wherever useful and appropriate. 
+
+
+![alt text](image.png)
+
+![alt text](image-7.png)
+
+
 
 #### Repository 
 
