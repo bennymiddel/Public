@@ -22,10 +22,10 @@ The following work aims to analyse the impact of these two events on the electri
 
 The results are determined using a systematic approach of data loading, EDA, pre-processing and modelling, which is reflected in the project's notebooks.
 
-- ![01 - data-loading and cleaning](../notebooks/01-data-loading-cleaning.ipynb)
-- ![02 - eda ](../notebooks/02-eda.ipynb)
-- ![03 - splitting and and pre-processing](../notebooks/03-splitting-and-pre-processing.ipynb)
-- ![04 - modelling and findings](../notebooks/04-modelling-and-findings.ipynb)
+- [01 - data-loading and cleaning](../notebooks/01-data-loading-cleaning.ipynb)
+- [02 - eda ](../notebooks/02-eda.ipynb)
+- [03 - splitting and and pre-processing](../notebooks/03-splitting-and-pre-processing.ipynb)
+- [04 - modelling and findings](../notebooks/04-modelling-and-findings.ipynb)
 
 
 The individual steps are explained and the interim results are categorised and presented graphically whenever appropriate. The trained models - SARIMAX and XGBoost - are also saved as .pkl files and can be accessed. 
