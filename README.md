@@ -68,14 +68,16 @@ By multiplying by the generation, the anomaly can be specified at a cost of €1
 
 * `notebooks`
     - contains all final notebooks involved in the project
-        - 01-data-loading-cleaning
-        - 02-eda
-        - 03-splitting-and-pre-processing
-        - 04-modeling-and-findings
+        - [01 - data-loading and cleaning](/notebooks/01-data-loading-cleaning.ipynb)
+        - [02 - eda ](/notebooks/02-eda.ipynb)
+        - [03 - splitting and and pre-processing](/notebooks/03-splitting-and-pre-processing.ipynb)
+        - [04 - modelling and findings](/notebooks/04-modelling-and-findings.ipynb)
 
 * `references`
     - contains papers / tutorials used in the project
     - [Link to the references folder (OneDrive)](https://1drv.ms/f/s!AlBqPKBsBg3Wh7pCI6y2y0Dhz39A_Q?e=EvAk45)
+
+
 
 * `src`
     - Contains the project source code (refactored from the notebooks)
