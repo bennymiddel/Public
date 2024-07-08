@@ -1,6 +1,6 @@
 
 ## E N E R G I E W E N D E 
-## Estimation of the effects of major events on the electricity prices in germany using using machine learning models
+## Estimation of the effects of major events on the electricity prices in Germany using machine learning models
 By back-induction based on a machine learning algorithm, outliers are
 detected in an electricity price time series and assigned to specific events.
 
