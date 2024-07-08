@@ -1,8 +1,7 @@
 
 ## E N E R G I E W E N D E 
 ## Estimation of the effects of major events on the electricity prices in Germany using machine learning models
-By back-induction based on a machine learning algorithm, outliers are
-detected in an electricity price time series and assigned to specific events.
+By back-induction based on a machine learning algorithm, outliers are detected in an electricity price time series and assigned to specific events.
 
 =========================
 
@@ -10,15 +9,15 @@ Benedikt Middelstaedt, 07/07/24 London
 
 ### Executive Summary
 
-European unity and the free movement of goods and people also affects the electricity market. Today, the entire European Union is part of a large interconnected grid. Unlike the physical connection, however, the price of electricity is determined in the individual electricity price zones. These zones roughly correspond to the individual member states. In the past, the electricity price followed the general and low inflation and did not show any major outliers. 
+European unity and the free movement of goods and people also affect the electricity market. Today, the entire European Union is part of a large interconnected grid. Unlike the physical connection, however, the price of electricity is determined in the individual electricity price zones. These zones roughly correspond to the individual member states. In the past, the electricity price followed the general and low inflation and did not show any major outliers.
 
-This changed with the coronavirus pandemic and the after-effects of massive government subsidy programmes, which have intensified, if not triggered, post-Covid inflation. 
+This changed with the coronavirus pandemic and the after-effects of massive government subsidy programs, which have intensified, if not triggered, post-Covid inflation.
 
-During this period of transition from Covid-19, another event followed that influenced the price of electricity in Europe. The Ukraine war that began on 24 February 2022 triggered an energy crisis in Europe that drove electricity prices to unprecedented heights. 
+During this period of transition from Covid-19, another event followed that influenced the price of electricity in Europe. The Ukraine war that began on 24 February 2022 triggered an energy crisis in Europe that drove electricity prices to unprecedented heights.
 
-During this time of crisis, the gas distribution from russia was first reduced, than disrupted and showed a major impact on the electricity prices in europe.
+During this time of crisis, the gas distribution from Russia was first reduced, then disrupted and showed a major impact on the electricity prices in Europe.
 
-The following work aims to analyse the impact of these two events on the electricity price in the Germany-Luxembourg price region. For this purpose, after a data analysis and adjustment phase, a model is first created based on the price data of the past before the war and the final nuclear phase-out, which predicts the price development without external effects. This model serves as the basis and benchmark for a further model that combines  exports and imports to and from the Germany-Luxembourg zone, production in the zone,and consumption in the zone.
+The following work aims to analyse the impact of these two events on the electricity price in the Germany-Luxembourg price region. For this purpose, after a data analysis and adjustment phase, a model is first created based on the price data of the past before the war and the final nuclear phase-out, which predicts the price development without external effects. This model serves as the basis and benchmark for a further model that combines exports and imports to and from the Germany-Luxembourg zone, production in the zone, and consumption in the zone.
 
 The results are determined using a systematic approach of data loading, EDA, pre-processing and modelling, which is reflected in the project's notebooks.
 
