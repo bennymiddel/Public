@@ -34,18 +34,17 @@ The systematic approach is explained in markdown cells and the code is explained
 ==========================================
 ### The general findings:
 
-The aim was to build a model based on the normal price ranges that could replicate the price development over the period as precisely as possible. The difference between this and the current price can be identified and quantified as an anomaly or outlier. 
+The aim was to build a model based on the normal price ranges that could replicate the price development over the period as precisely as possible. The difference between this and the current price can be identified and quantified as an anomaly or outlier. The trained model takes the features of the data set in the target period and models the price. In the training period, the model is very close to the actual price and the root-mean-squared-error over the training period is just 0.43! Therefore, it can be assumed that the spikes between the end of 2021 and the end of 2022 are labelled as an anomaly and as price spikes. It can also be seen as a success that the model is back in line with the actual price from January 2023 after the choppy phase.
 
 ![model -blue based on train period red to quantify the difference to actual price (black)](/images/image-2.png)
 
-The influences are quantified by extrapolation from the start date of the event.
+The selected events and their influence on the anomalies are displayed below. The influences are quantified by extrapolation from the start date of the event. 
 
 ![events and price anomaly](/images/image-7.png)
 
-The model makes it possible to quantify the costs of the time series anomaly between May 2021 and the end of the period in May 2024 - in addition, individual outliers can be assigned to specific events. The additional costs can be quantified by multiplying them by the entire generation.  
+The model makes it possible to quantify the costs of the time series anomaly between May 2021 and the end of the period in May 2024 - in addition, individual outliers can be assigned to specific events. The costs can be quantified by multiplying them by the entire generation.  
 
 ![quantification of price anomaly by multipling with generation](/images/image.png)
-
 
 
 By multiplying by the generation, the anomaly can be specified at a cost of €13.6 billion, of which €5.8 billion is caused by the gas supply crisis and €3.43 billion by the war as a single event.  4.4 B€ cannot be allocated to either of the two events. In general, it can be said that the anomaly represents an additional cost of 40% compared to the expected increase. 
